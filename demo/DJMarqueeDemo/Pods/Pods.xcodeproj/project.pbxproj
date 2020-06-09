@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		C4530E9F02DF54E93BDBD87357A0A397 /* DJMarquee */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B850D7C6528336B812FF827CBACCB62C /* Build configuration list for PBXAggregateTarget "DJMarquee" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = DJMarquee;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		379085A6223D9628272987125C16732F /* Pods-DJMarqueeDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC6182A6FA3C26090712C4989554BC1 /* Pods-DJMarqueeDemo-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87E284122A19DC15775A77C8CDDCE4F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4530E9F02DF54E93BDBD87357A0A397;
+			remoteInfo = DJMarquee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2966BCCEC160FE1C41B573FADB81BBE5 /* Pods-DJMarqueeDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DJMarqueeDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		51C6F97168F93FB36556C51F9650EA12 /* Pods-DJMarqueeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DJMarqueeDemo.release.xcconfig"; sourceTree = "<group>"; };
+		57F48C6B146BAFE3CF860EF445CF8A9F /* DJMarquee.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DJMarquee.h; path = DJMarquee/DJMarquee.framework/Headers/DJMarquee.h; sourceTree = "<group>"; };
+		801732AE1C4706B8F5D86ED2BF2EB66B /* Pods-DJMarqueeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DJMarqueeDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A28BB564C4E9EFE8412890C2A16C4B48 /* DJMarqueeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DJMarqueeView.h; path = DJMarquee/DJMarquee.framework/Headers/DJMarqueeView.h; sourceTree = "<group>"; };
+		AEF8C222E59501220C77E2BC1B2F10E7 /* DJMarquee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DJMarquee.debug.xcconfig; sourceTree = "<group>"; };
+		B14A5A2019F0BD74239CEAB880DB856F /* DJMarquee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DJMarquee.release.xcconfig; sourceTree = "<group>"; };
+		BCC6182A6FA3C26090712C4989554BC1 /* Pods-DJMarqueeDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DJMarqueeDemo-dummy.m"; sourceTree = "<group>"; };
+		DFAB5677B764058DD84AE2D4CDB19FD3 /* Pods-DJMarqueeDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DJMarqueeDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E73DF023811DCC57B29B2DDDB127A32E /* libPods-DJMarqueeDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DJMarqueeDemo.a"; path = "libPods-DJMarqueeDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F21855AB9D33446DF31F26F94F4552AA /* DJMarquee.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DJMarquee.framework; path = DJMarquee/DJMarquee.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F77AF1C5B90318408CA07D4F83BE14D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1126EBAF6AF2CAA62D52F9C9581DF772 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				723B6C65F63259C2E71BA15435561C31 /* DJMarquee */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		723B6C65F63259C2E71BA15435561C31 /* DJMarquee */ = {
+			isa = PBXGroup;
+			children = (
+				57F48C6B146BAFE3CF860EF445CF8A9F /* DJMarquee.h */,
+				A28BB564C4E9EFE8412890C2A16C4B48 /* DJMarqueeView.h */,
+				BDFA0F8F365B16C2E5EF91E1F3D610A4 /* Frameworks */,
+				7525653F54BA856F555FC723EF9A38D0 /* Support Files */,
+			);
+			name = DJMarquee;
+			path = DJMarquee;
+			sourceTree = "<group>";
+		};
+		7525653F54BA856F555FC723EF9A38D0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEF8C222E59501220C77E2BC1B2F10E7 /* DJMarquee.debug.xcconfig */,
+				B14A5A2019F0BD74239CEAB880DB856F /* DJMarquee.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DJMarquee";
+			sourceTree = "<group>";
+		};
+		82D16AC0E92B9D059FA5C05DA4466546 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E73DF023811DCC57B29B2DDDB127A32E /* libPods-DJMarqueeDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDFA0F8F365B16C2E5EF91E1F3D610A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F21855AB9D33446DF31F26F94F4552AA /* DJMarquee.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				1126EBAF6AF2CAA62D52F9C9581DF772 /* Pods */,
+				82D16AC0E92B9D059FA5C05DA4466546 /* Products */,
+				DA564638C53AA77C090E8D408575C0F1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA564638C53AA77C090E8D408575C0F1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E50FDA3C5D065B9EAF26340D48668E6C /* Pods-DJMarqueeDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E50FDA3C5D065B9EAF26340D48668E6C /* Pods-DJMarqueeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DFAB5677B764058DD84AE2D4CDB19FD3 /* Pods-DJMarqueeDemo-acknowledgements.markdown */,
+				2966BCCEC160FE1C41B573FADB81BBE5 /* Pods-DJMarqueeDemo-acknowledgements.plist */,
+				BCC6182A6FA3C26090712C4989554BC1 /* Pods-DJMarqueeDemo-dummy.m */,
+				801732AE1C4706B8F5D86ED2BF2EB66B /* Pods-DJMarqueeDemo.debug.xcconfig */,
+				51C6F97168F93FB36556C51F9650EA12 /* Pods-DJMarqueeDemo.release.xcconfig */,
+			);
+			name = "Pods-DJMarqueeDemo";
+			path = "Target Support Files/Pods-DJMarqueeDemo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7209A03909A7956A691F933ACD699F58 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		470192AAFD88B983316F8AE7EFDC89C9 /* Pods-DJMarqueeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BE0BA5E0132BDA78AAF4804A63CE5E6 /* Build configuration list for PBXNativeTarget "Pods-DJMarqueeDemo" */;
+			buildPhases = (
+				7209A03909A7956A691F933ACD699F58 /* Headers */,
+				A3BE95BD2DD63F86260F3DB73765C22E /* Sources */,
+				F77AF1C5B90318408CA07D4F83BE14D7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA520B542CA124116B43AE13D6AEE78C /* PBXTargetDependency */,
+			);
+			name = "Pods-DJMarqueeDemo";
+			productName = "Pods-DJMarqueeDemo";
+			productReference = E73DF023811DCC57B29B2DDDB127A32E /* libPods-DJMarqueeDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 82D16AC0E92B9D059FA5C05DA4466546 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4530E9F02DF54E93BDBD87357A0A397 /* DJMarquee */,
+				470192AAFD88B983316F8AE7EFDC89C9 /* Pods-DJMarqueeDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3BE95BD2DD63F86260F3DB73765C22E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				379085A6223D9628272987125C16732F /* Pods-DJMarqueeDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA520B542CA124116B43AE13D6AEE78C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DJMarquee;
+			target = C4530E9F02DF54E93BDBD87357A0A397 /* DJMarquee */;
+			targetProxy = 87E284122A19DC15775A77C8CDDCE4F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A93035A496BAA93AAFC611F8FCDDF11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51C6F97168F93FB36556C51F9650EA12 /* Pods-DJMarqueeDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1CA9249C81AD9CEFDA0806D5BF4D23D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B14A5A2019F0BD74239CEAB880DB856F /* DJMarquee.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E3D1E51688242BC7EA2E4B67F427B12A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEF8C222E59501220C77E2BC1B2F10E7 /* DJMarquee.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5F04600F5626DC980F02790D1ED2C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F77AA8F7F5F864F7221447B1776963AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 801732AE1C4706B8F5D86ED2BF2EB66B /* Pods-DJMarqueeDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BE0BA5E0132BDA78AAF4804A63CE5E6 /* Build configuration list for PBXNativeTarget "Pods-DJMarqueeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77AA8F7F5F864F7221447B1776963AE /* Debug */,
+				1A93035A496BAA93AAFC611F8FCDDF11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */,
+				F5F04600F5626DC980F02790D1ED2C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B850D7C6528336B812FF827CBACCB62C /* Build configuration list for PBXAggregateTarget "DJMarquee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3D1E51688242BC7EA2E4B67F427B12A /* Debug */,
+				A1CA9249C81AD9CEFDA0806D5BF4D23D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

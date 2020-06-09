@@ -1,0 +1,16 @@
+PODS:
+  - DJMarquee (1.0.0)
+
+DEPENDENCIES:
+  - DJMarquee
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - DJMarquee
+
+SPEC CHECKSUMS:
+  DJMarquee: efdb9d09426b981ffcfbcb25f7634b212b24f9f9
+
+PODFILE CHECKSUM: f3f3aa108d8e50e984c2b6eef1f73eba43e12eb4
+
+COCOAPODS: 1.9.3

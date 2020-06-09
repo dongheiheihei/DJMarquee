@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16097"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController">
+            <connections>
+                <outlet property="crosswiseMarqueeView" destination="7OZ-88-0ZD" id="ch3-Ft-kxI"/>
+                <outlet property="verticalMarqueeView" destination="Y40-0P-8Aw" id="W8w-IZ-enm"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7OZ-88-0ZD">
+                    <rect key="frame" x="20" y="100" width="374" height="40"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="TT1-51-j1J"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y40-0P-8Aw">
+                    <rect key="frame" x="15" y="190" width="384" height="52"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="52" id="4F4-fL-ViS"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="Y40-0P-8Aw" firstAttribute="top" secondItem="7OZ-88-0ZD" secondAttribute="bottom" constant="50" id="9kv-e9-hAj"/>
+                <constraint firstItem="7OZ-88-0ZD" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="Nho-f8-XL5"/>
+                <constraint firstItem="Y40-0P-8Aw" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="RAr-cG-edv"/>
+                <constraint firstAttribute="trailing" secondItem="7OZ-88-0ZD" secondAttribute="trailing" constant="20" id="WgX-96-ETE"/>
+                <constraint firstItem="7OZ-88-0ZD" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="gIx-9U-Ntn"/>
+                <constraint firstAttribute="trailing" secondItem="Y40-0P-8Aw" secondAttribute="trailing" constant="15" id="tby-2f-0zd"/>
+            </constraints>
+            <point key="canvasLocation" x="132" y="154"/>
+        </view>
+    </objects>
+</document>

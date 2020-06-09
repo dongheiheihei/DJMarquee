@@ -1,0 +1,6 @@
+framework module DJMarquee {
+  umbrella header "DJMarquee.h"
+
+  export *
+  module * { export * }
+}
